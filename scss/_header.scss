@@ -1,0 +1,24 @@
+.header {
+  padding-top: 100px;
+  padding-bottom: 48px;
+}
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  &__tetil {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888f;
+  }
+}

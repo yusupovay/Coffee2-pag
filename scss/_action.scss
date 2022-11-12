@@ -1,0 +1,34 @@
+.action {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  &__list {
+    display: inline;
+  }
+  &__tetle {
+    padding-top: 32px;
+    margin-bottom: 50px;
+    width: 357px;
+    height: 48px;
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333d4b;
+  }
+  &__text {
+    width: 540px;
+    height: 260px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333d4b;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+}

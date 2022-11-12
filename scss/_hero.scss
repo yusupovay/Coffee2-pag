@@ -1,0 +1,30 @@
+.hero__img {
+  position: relative;
+}
+.heros {
+  position: absolute;
+  top: 120px;
+  left: 460px;
+  &__tetil {
+    width: 188px;
+    height: 48px;
+    margin-top: 137px;
+    margin-bottom: 24px;
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fefcf7;
+  }
+  &__discription {
+    width: 445px;
+    height: 104px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+  }
+}

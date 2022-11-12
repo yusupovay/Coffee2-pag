@@ -1,0 +1,38 @@
+.card {
+  margin-top: 200px;
+  background-color: dimgray;
+  position: relative;
+  width: 1280px;
+  height: 474px;
+  &__list {
+    padding: 88px 655px 176px 85px;
+  }
+  &__tetle {
+    margin-bottom: 32px;
+    width: 517px;
+    height: 48px;
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fefcf7;
+  }
+  &__text {
+    width: 540px;
+    height: 130px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  &__img {
+    position: absolute;
+    top: -88px;
+    right: 85px;
+  }
+}
